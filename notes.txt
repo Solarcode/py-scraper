@@ -1,0 +1,17 @@
+https://www.cricket.com.au/fixtures
+
+get data:
+go through html row fixture-counter elements (where match data is displayed),
+looking for current Australia Mens, Adelaide Strikers, South Australia Mens matches - Live / Stumps
+	find btn-scoreboard link inside
+		follow link to match page
+			get current innings score & stats
+
+organise data
+	communicate data to arduino using spi / i2c / uart ?
+		display data on arduino cycling through matches & stats
+
+config:
+
+frequency (how often data is updated)
+what stats are displayed
